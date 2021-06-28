@@ -5,7 +5,7 @@ nav_title: "Production"
 
 lang: fr   # change "en" to lang code, here and 2 @@s below
 last_updated: 2021-05-15   # Change to date of translation YYYY-MM-DD (month in middle)
-translator:
+translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
 
@@ -215,71 +215,71 @@ La description n'est pas nécessaire : les images de cette vidéo ne font qu'app
 
 ### Fournir à la fois des sous-titres et une transcription {#captions-and-transcript}
 
-Il est préférable de fournir des sous-titres et une transcription à part.
+Il est préférable de fournir des sous-titres et une transcription distincte.
 
-Pour les vidéos, les sous-titres permettent aux personnes sourdes ou malentendantes de voir le contenu visuel et de lire les sous-titres en même temps.
+Pour les vidéos, les sous-titres permettent aux personnes sourdes ou malentendantes de voir le contenu visuel et de lire les sous-titres au même moment.
 
-Pour le contenu uniquement audio, les sous-titres permettent aux personnes malentendantes de saisir les nuances de l'audio et de compléter ce qu'ils n'ont pas entendu en lisant les sous-titres.   
+Pour le contenu seulement audio, les sous-titres permettent aux personnes malentendantes de saisir les nuances de l'audio et de compléter ce qu'ils n'ont pas bien entendu en lisant les sous-titres.
 
-Les transcriptions sont nécessaires pour fournir l'accès aux personnes sourdes et aveugles et qui utilisent le braille. Les transcriptions sont également utilisées par les personnes sans handicaps, comme indiqué dans la page d'introduction de cette ressource nommée sous [Avantages pour les organisations et les particuliers](/media/av/#benefits).
+Les transcriptions sont nécessaires pour donner l'accès aux personnes sourdes et aveugles et qui utilisent le braille. Les transcriptions sont également utilisées par les personnes sans handicaps, comme indiqué sous [Bénéfices pour les organisations et les particuliers](/media/av/#benefits) dans la page d'introduction de cette ressource.
 
 ### Transcriptions descriptives
 
 Les transcriptions descriptives pour vidéos :
 
-* sont nécessaires pour la plupart des vidéos pour qu'elles soient accessibles par les personnes sourdes et aveugles
-* répondent à de nombreux besoins en accessibilité, y compris pour les personnes qui présentent des difficultés à comprendre l'information auditive et les personnes qui n'arrivent pas à se concentrer et à saisir l'information visuelle lors de changements d'images.
-* sont utilisés par les personnes _sans_ handicaps, et représentent un avantage pour votre organisation (retrouvez des exemples sur la page d'introduction sous [Avantages pour les organisations et les particuliers](/media/av/#benefits)
-* **sont faciles et peu coûteux à créer** en utilisant des sous-titres et descriptions que vous avez déjà pour atteindre le niveau AA
+* sont nécessaires pour la plupart des vidéos afin qu'elles soient accessibles aux personnes sourdes et aveugles
+* répondent à de nombreux besoins en accessibilité, notamment pour les personnes qui présentent des difficultés à comprendre l'information auditive et celles qui n'arrivent pas à se concentrer et à saisir l'information auditive ou visuelle lors de changements d'images.
+* sont utilisés par des personnes _sans_ handicaps, et représentent un avantage pour votre organisation (retrouvez des exemples sous [Bénéfices pour les organisations et les particuliers](/media/av/#benefits) dans la page d'introduction)
+* **sont faciles et peu coûteuses à créer**, en utilisant les sous-titres et descriptions que vous avez déjà produits pour atteindre le niveau AA
 
 **Les sous-titres et les transcriptions utilisent le même texte. Une fois que vous avez le premier, il est relativement facile de créer l'autre.**
 
-### D'autres langues
+### Autres langues
 
-La traduction de l'audio vers d'autres langues peut être fournie :
-*  sous forme de texte, en utilisant le format de légendes (appelées sous-titres ou sous-titres interlinguistiques)
-*  sous forme d'audio, habituellement à part (pour les personnes qui ne peuvent pas lire les sous-titres)
+Une traduction de l'audio vers d'autres langues peut être fournie :
+* sous forme de texte, en utilisant le format des sous-titres (appelés sous-titres interlinguistiques)
+* sous forme d'audio, habituellement en tant que flux audio distinct (pour les personnes qui ne peuvent pas lire les sous-titres)
 * sous forme de langue des signes
 
 ## Gestion de projet
 
 <!-- maybe better image in future iteration: <img src="{{ "/content-images/wai-media-guide/in-or-out.png" | relative_url }}" alt="" style="float: right; margin-left: 2rem; clear:right; width: 30%; max-width: 220px"> -->
 
-Comprend des conditions d'accessibilité dans vos :
-* Besoins du projet - interne et externe
-* Demandes de propositions ou appels d'offre
+Incluez des conditions d'accessibilité dans vos :
+* Pré-requis de projets - internes et externes
+* Demandes de propositions ou appels d'offres
 * Contrats
 
-Voici un exemple de charge de travail pour créer une vidéo accessible, avec des précisions sur qui crée le contenu. Les liens renvoient à d'autres pages de cette ressource.
+Voici un exemple de processus pour créer une vidéo accessible, avec des précisions sur les personnes responsables de la création du contenu. Les liens renvoient à d'autres pages de cette ressource.
 
 {::nomarkdown}
-{% include box.html type="start" title="Exemple de charge de travail et de responsabilités" class="" %}
+{% include box.html type="start" title="Exemples de processus et de responsabilités" class="" %}
 {:/}
 
-1. Penchez-vous sur l'accessibilité dans le **[contenu de la vidéo](/media/av/av-content/)** au fur et à mesure que vous planifiez et produisez la vidéo.<br>_Par :_ des scénaristes, des vidéastes, des producteurs, et autres.
+1. Penchez-vous sur l'accessibilité dans le **[contenu vidéo](/media/av/av-content/)** au fur et à mesure que vous planifiez et produisez la vidéo.<br>_Par :_ Les scénaristes, vidéastes, producteurs, et autres.
 
-2. Créez une **[version descriptive de la vidéo](/media/av/description/)** en même temps que la vidéo principale, si besoin.<br>_Par :_ Généralement les mêmes personnes qui produisent la vidéo principale produisent également la version descriptive.
+2. Créez une **[version descriptive de la vidéo](/media/av/description/)** en même temps que la vidéo principale, si nécessaire.<br>_Par :_ Généralement, les personnes qui produisent la vidéo principale produisent également la version descriptive.
 
-3. Créez des **[sous-titres](/media/av/captions/)** pour la vidéo principale et pour la version descriptive.<br>_Par :_ Généralement, s'il s'agit d'une vidéo professionnelle, les producteurs fournissent les sous-titres. Parfois, pour des créations de vidéos en interne, les sous-titres sont sous-traités.
+3. Créez des **[sous-titres](/media/av/captions/)** pour la vidéo principale et pour la version descriptive.<br>_Par :_ Généralement, s'il s'agit d'une vidéo professionnelle, les producteurs fournissent les sous-titres. Parfois, quand des vidéos informelles sont produites en interne, les sous-titres sont sous-traités.
 
-4. Créez une **[transcription descriptive](/media/av/transcripts/)** en utilisant le texte des fichiers de sous-titres.<br>_Par :_ Souvent, les transcriptions sont créées en interne pour les sous-titres.
+4. Créez une **[transcription descriptive](/media/av/transcripts/)** en utilisant le texte des fichiers de sous-titres.<br>_Par :_ Souvent, les transcriptions sont créées en interne à partir des sous-titres.
 
-5. Mettez la vidéo à disposition dans un **[lecteur multimédia accessible](/media/av/player/)** (généralement, dans un lecteur favorable à l'accessibilité existant).<br>_Par :_ Habituellement, des développeurs Web internes.
+5. Mettez la vidéo à disposition dans un **[lecteur multimédia accessible](/media/av/player/)** (généralement, un lecteur existant avec une bonne compatibilité avec l'accessibilité).<br>_Par :_ Habituellement, les développeurs Web en interne.
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
-### Accessibilité des ressources {#in-or-out}
+### Allouer des ressources à l'accessibilité {#in-or-out}
 
-Pour vous aider à **la production votre travail interne et sous-traité**, les pages de cette ressource reprennent les considérations, les compétences, et les outils nécessaires à la création de contenu multimédia accessible dans ces sections :
-* [Descritpion des considérations, des compétences, et des outils](/media/av/description/#description-considerations-skills-and-tools)
-* [Sous -titres, compétences, et outils](/media/av/captions/#skills-and-tools) et [Les sous-titres automatiques ne suffisent pas](/media/av/captions/#automatic-captions-are-not-sufficient)
-* [Transcriptions, processus - compétence et outils](/media/av/transcripts/#process---skills-and-tools)
-* [Lecteurs multimédia, compétences et outils](/media/av/player/#skills)
-* [Langues des signes, compétences et outils](/media/av/sign-languages/#skills-and-tools)
+Pour vous aider à **planifier le travail interne et sous-traité**, les pages de cette ressource reprennent les considérations, les compétences et les outils nécessaires à la création de contenu multimédia accessible dans les sections suivantes :
+* [Descriptions : considérations, compétences, outils](/media/av/description/#description-considerations-skills-and-tools)
+* [Sous -titres : compétences, et outils](/media/av/captions/#skills-and-tools) et [Les sous-titres automatiques ne suffisent pas](/media/av/captions/#automatic-captions-are-not-sufficient)
+* [Transcriptions : processus - compétences et outils](/media/av/transcripts/#process---skills-and-tools)
+* [Lecteurs multimédia : compétences et outils](/media/av/player/#skills)
+* [Langues des signes : compétences et outils](/media/av/sign-languages/#skills-and-tools)
 
-Au moment de prévoir et d'établir le budget pour un contenu multimédia accessible, il est souvent utile de présenter les **avantages aux organisations**, tels que l'optimisation pour les moteurs de recherche (SEO), une meilleure expérience utilisateur pour tous, une meilleure satisfaction client, et plus encore, comme indiqué dans la page d'introduction sous [Avantages pour les organisations et les particuliers](/media/av/#benefits).
+Au moment de planifier et d'établir le budget pour un contenu multimédia accessible, il est souvent utile d'en présenter les **avantages aux organisations**, tels que l'optimisation pour les moteurs de recherche (SEO), une meilleure expérience utilisateur pour tous, une meilleure satisfaction client, et plus encore, comme indiqué dans la page d'introduction sous [Bénéfices pour les organisations et les particuliers](/media/av/#benefits).
 
 ## Standard WCAG
 
@@ -290,50 +290,51 @@ Les Règles pour l'accessibilité des contenus Web (WCAG) sont introduites dans 
 {:/}
 
 Cette ressource utilise en grande partie la terminologie WCAG, à quelques différences près :
-* "médias temporels" dans les WCAG = "contenu audio et vidéo" dans cette ressource
-* "[alternative pour les médias temporels dans les WCAG](https://www.w3.org/TR/WCAG#alt-time-based-mediadef)" = "transcription" pour le contenu uniquement audio et la "transcription descriptive" pour vidéos dans cette ressource
+* "média temporel" dans les WCAG = "contenu audio et vidéo" dans cette ressource
+* "[version de remplacement pour un média temporel](https://www.w3.org/TR/WCAG#alt-time-based-mediadef)" dans les WCAG = "transcription" pour le contenu seulement audio et "transcription descriptive" pour les vidéos dans cette ressource
+
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
-Les WCAG reprennent les recommandations concernant les contenus audios et vidéos de niveaux A, AA, et AAA. (Retrouvez plus d'informations dans une ressource à part : [Comprendre les niveaux de conformité](https://www.w3.org/WAI/WCAG21/Understanding/conformance.html#levels).) La plupart des contenus multimédia doivent atteindre le niveau AA, selon les réglementations en vigueur. Cela comprend les contenus A et AA indiqués dans les tableaux ci-dessous.
+Les WCAG inclut des exigences pour les contenus audio et vidéo de niveaux A, AA, et AAA. (Retrouvez plus d'informations dans une ressource dédiée : [Comprendre les niveaux de conformité](https://www.w3.org/WAI/WCAG21/Understanding/conformance.html#levels).) La plupart des contenus multimédia sont contraints d'atteindre le niveau AA par les règlementations en vigueur – qui comprend les exigences A et AA indiquées dans les tableaux ci-dessous.
 
 Les critères d'accessibilité pour les vidéos et les audios diffèrent selon qu'ils sont :
-* préenregistrés ou en direct
-* des vidéos avec audio, des vidéos sans audio (contenu vidéo uniquement), ou un contenu uniquement audio
-Les liens apparaissant dans les tableaux ci-dessous mènent vers une page située dans une ressource à part : Comprendre les WCAG 2.1.
+* pré-enregistrés ou en direct
+* une vidéo avec audio, une vidéos sans audio (contenu vidéo uniquement), ou un contenu seulement audio
+Les liens apparaissant dans les tableaux ci-dessous mènent vers une page située dans une ressource distincte : Comprendre les WCAG 2.1.
 
-### Préenregistrés
+### Pré-enregistré
 {:.no_toc}
 
 <table class="quiet">
 <tr>
 <th scope="col">&nbsp;</th>
-<th scope="col">Transcription <span class="normal-weight">(y compris le contenu auditif et visuel)</span></th>
+<th scope="col">Transcription <span class="normal-weight">(incluant le contenu auditif et visuel)</span></th>
 <th scope="col">Sous-titres</th>
-<th scope="col">Audiodescription <span class="normal-weight">(si le contenu visuel n'est pas disponible en audio)</span></th>
+<th scope="col">Audio-description <span class="normal-weight">(si le contenu visuel n'est pas dans l'audio)</span></th>
 <th scope="col">Langue des signes</th>
 </tr>
 <tr>
-  <th scope="row">Contenu uniquement audio</th>
+  <th scope="row">Contenu seulement audio</th>
   <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong></td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
 </tr>
 <tr>
-<th scope="row">Contenu uniquement vidéo</th>
-<td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (transcription <em><strong>ou</strong></em> bande sonore)<br>
+<th scope="row">Contenu seulement vidéo</th>
+<td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (transcription <em><strong>ou</strong></em> piste audio)<br>
 <a href="https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded">AAA 1.2.8</a></td>
 <td>&nbsp;</td>
-<td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (bande-son <em><strong>ou</strong></em> transcription)</td>
+<td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-and-video-only-prerecorded">A 1.2.1</a></strong> (piste audio <em><strong>ou</strong></em> transcription)</td>
 <td>&nbsp;</td>
 </tr>
 <tr>
   <th scope="row">Vidéo avec audio</th>
   <td><a href="https://www.w3.org/WAI/WCAG21/Understanding/media-alternative-prerecorded">AAA 1.2.8</a></td>
   <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded">A 1.2.2</a></strong></td>
-  <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded">A 1.2.3</a></strong>&nbsp;(audiodescription <em><strong>ou</strong></em> transcription)<br>
+  <td><strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded">A 1.2.3</a></strong>&nbsp;(audio-description <em><strong>ou</strong></em> transcription)<br>
     <strong><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded">AA 1.2.5</a></strong><br>
     <a href="https://www.w3.org/WAI/WCAG21/Understanding/extended-audio-description-prerecorded">AAA 1.2.7</a></td>
   <td><a href="https://www.w3.org/WAI/WCAG21/Understanding/sign-language-prerecorded">AAA 1.2.6</a></td>
@@ -348,18 +349,18 @@ Les liens apparaissant dans les tableaux ci-dessous mènent vers une page situé
 <th scope="col">&nbsp;</th>
 <th scope="col">Transcription</th>
 <th scope="col">Sous-titres</th>
-<th scope="col">Audiodescription</th>
+<th scope="col">Audio-description</th>
 <th scope="col">Langue des signes</th>
 </tr>
 <tr>
-  <th scope="row">Contenu uniquement audio</th>
-  <td><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live">AAA 1.2.9</a> (diffusion en direct <em><strong>ou</strong></em>transcription exacte en direct)</td>
+  <th scope="row">Contenu seulement audio</th>
+  <td><a href="https://www.w3.org/WAI/WCAG21/Understanding/audio-only-live">AAA 1.2.9</a> (diffusion en direct <em><strong>ou</strong></em> transcription exacte en direct)</td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
   <td>&nbsp;</td>
 </tr>
 <tr>
-<th scope="row">Contenu uniquement vidéo</th>
+<th scope="row">Contenu seulement vidéo</th>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -374,17 +375,17 @@ Les liens apparaissant dans les tableaux ci-dessous mènent vers une page situé
 </tr>
 </table>
 
-### Plus d'informations à propos des standards
+### Plus d'information sur les standards
 {:.no_toc}
 
-Pour en savoir plus sur les critères WCAG pour les contenus multimédia, allez sur [Comprendre la Règle 1.2 : moyens d'expression temporels](https://www.w3.org/WAI/WCAG21/Understanding/time-based-media).
+Pour en savoir plus sur les exigences WCAG pour les contenus multimédia, consultez [Comprendre la Règle 1.2 : Média temporel](https://www.w3.org/WAI/WCAG21/Understanding/time-based-media).
 
-Retrouvez d'autres critères WCAG liés aux contenus audios et vidéos :
+Retrouvez d'autres exigences WCAG liées aux contenus audio et vidéo :
 * Dans cette ressource :
-  * [Du contenu audio et vidéo accessible](/media/av/av-content/)
-  * [Fonctionnalités du lecteur multimédia](/media/av/player/#player-accessibility-functionality)
-* Dans comprendre les WCAG :
-   * [2.2.2 Pause, Stop, Masquer](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide) (Niveau A) Pour déplacer, clignoter, défier, ou des informations de mise à jour automatique, toutes les conditions suivantes sont remplies :...
+  * [Contenu audio et vidéo accessible](/media/av/av-content/)
+  * [Fonctionnalité du lecteur multimédia](/media/av/player/#player-accessibility-functionality)
+* Dans Comprendre les WCAG :
+   * [2.2.2 Mettre en pause, arrêter, masquer](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide) (Niveau A) pour toute information en mouvement, clignotante, défilante ou mise à jour automatiquement, tous les points suivants sont vrais :...
    * [1.4.2 Contrôle du son](https://www.w3.org/WAI/WCAG21/Understanding/audio-control) (Niveau A) Si du son sur une page Web est audible automatiquement pendant plus de 3 secondes, un mécanisme est disponible pour le mettre en pause, l'arrêter, ou pour en contrôler le volume...
 
-Vos contenus audios et vidéos pourraient faire l'objet de recommandations supplémentaires, par exemple sous des réglementations gouvernementales. Certaines sont reprises dans [Réglementations et législation sur l'accessibilité Web](/policies/).
+Vos contenus audios et vidéos pourraient faire l'objet d'exigences supplémentaires, par exemple en raison de réglementations gouvernementales. Certaines sont listées dans [Lois et politiques d'accessibilité Web](/policies/).
