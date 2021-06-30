@@ -107,23 +107,22 @@ Pour une accessibilité optimale, fournissez un fichier de sous-titres séparé 
 ## Mon contenu multimédia nécessite-t-il des sous-titres ? {#checklist}
 
 Cette section vous indique :
-* Ce qui est requis par le standard des WCAG aux niveaux A, AA, et AAA.
- _([Les WCAG](/media/av/planning/#wcag-standard) sont introduites dans la page Planifier de cette ressource.)_
+* Ce qui est requis par le standard des WCAG aux niveaux A, AA, et AAA. _([Les WCAG](/media/av/planning/#wcag-standard) sont introduites dans la page Planifier de cette ressource.)_
 * Ce qui est nécessaire pour satisfaire les besoins des utilisateurs, au-delà des WCAG. S'il n'y a pas de "A", alors ce n'est pas requis par les WCAG.
 
 {% capture boxhead %}
-Contenu uniquement audio (par exemple, les podcasts):
+Contenu seulement audio (par exemple, les podcasts) :
 {% endcapture %}
 
 {::nomarkdown}
 {% include box.html type="start" title=boxhead class="highlighted" id="checklist-ao" %}
 {:/}
 
-*   Pour le pré-enregistré :
-    *   Les légendes sont utiles pour les personnes qui sont malentendantes pour comprendre les subtilités de l'audio et combler ce qu'elles n'ont pas bien entendu en lisant les légendes.<br>Les légendes ne sont pas requises pour répondre aux WCAG. (Transcriptions sont au niveau A.)
+*   Pour un contenu pré-enregistré :
+    *   Les sous-titres sont utiles pour les personnes malentendantes pour comprendre les subtilités de l'audio et combler ce qu'elles n'ont pas bien entendu en lisant les sous-titres.<br>Les sous-titres ne sont pas requis pour répondre aux WCAG. (Les transcriptions sont de niveau A.)
     {:.alt}
-*   En direct :
-    *   Les légendes sont utiles pour les personnes malentendantes pour comprendre les subtilités de l'audio et combler ce qu'ils n'entendent pas bien en lisant les légendes.<br>Retrouvez des informations sur une diffusion du texte en direct ou un script de l'audio disponible en direct dans les WCAG au niveau AAA.
+*   Pour un contenu diffusé en direct :
+    *   Les sous-titres sont utiles pour les personnes malentendantes pour comprendre les subtilités de l'audio et combler ce qu'elles n'entendent pas bien en lisant les sous-titres.<br>La mise à disposition d'un flux textuel en direct ou d'un scénario fidèle à l'audio est demandée par les WCAG au niveau AAA.
     {:.alt}
 
 {::nomarkdown}
@@ -131,15 +130,15 @@ Contenu uniquement audio (par exemple, les podcasts):
 {:/}
 
 {% capture boxhead %}
-Contenu uniquement vidéo (pas de contenu audio):
+Contenu seulement vidéo (pas de contenu audio):
 {% endcapture %}
 
 {::nomarkdown}
 {% include box.html type="start" title=boxhead class="highlighted" id="checklist-vo" %}
 {:/}
 
-*   Pour le pré-enregistré et le direct :
-    *   Les légendes ne sont pas nécessaires parce qu'il n'y a pas d'information audio.
+*   Pour un contenu pré-enregistré et en direct :
+    *   Les sous-titres ne sont pas nécessaires parce qu'il n'y a pas d'information audio.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -157,58 +156,64 @@ Vidéo avec du contenu audio :
 La vidéo contient-elle des informations audios nécessaires à la compréhension du message véhiculé par la vidéo ?
 
 *   Si non (par exemple, il s'agit juste d'une musique de fond) :
-    *   Les légendes ne sont pas nécessaires car le contenu audio n'est pas important. Plus d'informations sur [informer les utilisateurs](/media/av/planning/#none).
+    *   Les sous-titres ne sont pas nécessaires car il n'y a pas de contenu audio important. Pensez à [informer les utilisateurs](/media/av/planning/#none).
 *   Si oui :
-    *   Pour le pré-enregistré :
-        *   Les légendes sont nécessaires pour fournir du contenu audio aux personnes sourdes ou malentendantes.  
-            Les légendes sont _**requises**_ dans les WCAG au niveau A.
+    *   Pour un contenu pré-enregistré :
+        *   Les sous-titres sont nécessaires pour délivrer le contenu audio aux personnes sourdes ou malentendantes.
+            Les sous-titres sont _**requis**_ dans les WCAG au niveau A.
         {:.alt}
-    *   Pour le direct :
-        *   Les légendes sont nécessaires pour fournir du contenu audio aux personnes sourdes ou malentendantes.  
-            Les légendes sont _**requises**_ dans les WCAG au niveau AA.
+    *   Pour une vidéo en direct :
+        *   Les sous-titres sont nécessaires pour délivrer le contenu audio aux personnes sourdes ou malentendantes.
+            Les sous-titres sont _**requis**_ dans les WCAG au niveau AA.
         {:.alt}
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+<br>
+
+**Extraits des WCAG** avec des liens vers plus d'informations dans "Comprendre les WCAG" :
+* [A 1.2.2 Sous-titres](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html) (pré-enregistrés) : fournir des sous-titres pour tout contenu audio pré-enregistré dans un média synchronisé...
+* [AA 1.2.4 Sous-titres](https://www.w3.org/WAI/WCAG21/Understanding/captions-live.html) (en direct) : fournir une audio-description pour tout contenu vidéo pré-enregistré, sous forme de média synchronisé.
 
 ## Compétences et outils
 
-La création de légendes nécessite de taper à l'ordinateur l'audio ("transcription") et de le formater dans un fichier à l'aide d' horodatages. La transcription d'un fichier audio est relativement difficile et prend un certain temps pour les personnes qui n'ont pas de logiciel et de compétences requises pour un tel exercice. Le format de fichier pour les légendes est simple, cependant, ajouter les horodatages est fastidieux, particulièrement sans un logiciel ou un service de création de fichiers de légendes.  
+La création de sous-titres nécessite de taper à l'ordinateur l'audio ("transcription") et de le formater dans un fichier avec des horodatages. La transcription d'un fichier audio est relativement difficile et prend un certain temps pour les personnes qui n'ont pas le logiciel et les compétences requises pour un tel exercice. Le format de fichier pour les sous-titres est simple, mais ajouter les horodatages est fastidieux, particulièrement sans un logiciel ou un service de création de fichiers de sous-titres.
 
-La création de légendes de haute qualité nécessite de savoir quelles informations audios non vocales devraient être comprises dans les légendes. Cela relève plus de l'art que de la science --- par exemple, il n'est pas toujours évident d'identifier les informations audios non vocales à inclure et de savoir comment les communiquer sous forme de texte.
+La création de sous-titres de haute qualité nécessite de savoir quelles informations audios non vocales doivent être incluses dans les sous-titres. Cela relève plus de l'art que de la science &mdash; par exemple, il n'est pas toujours évident d'identifier les informations audios non vocales à inclure et de savoir comment les communiquer sous forme de texte.
 
-Même la correction d'un fichier de légendes peut prendre un certain temps si la personne n'a pas l'habitude de le faire.
+Même la correction d'un fichier de sous-titres peut prendre un certain temps pour des personnes qui ne le font pas régulièrement.
 
-Par contre, les personnes qui ont un logiciel, des compétences et de l'expérience dans le développement de légendes, peuvent les créer bien plus rapidement.
+En revanche, les personnes qui ont le logiciel, les compétences et de l'expérience dans la création de sous-titres, peuvent les créer bien plus rapidement.
 
-Pour ces raisons, de nombreuses organisations choisissent de sous-traiter la création de leurs légendes.
+Pour ces raisons, de nombreuses organisations choisissent de sous-traiter la création de leurs sous-titres.
 
-## Les légendes automatiques ne suffisent pas
+## Les sous-titres automatiques ne suffisent pas
 
-Les légendes générées automatiquement ne répondent pas aux besoins des utilisateurs ou aux critères d'accessibilité, sauf s'il a été vérifié qu'ils sont tout à fait fidèles à l'audio. Généralement, ils nécessitent d'importantes révisions.
+Les sous-titres générés automatiquement ne répondent pas aux besoins des utilisateurs ou aux exigences d'accessibilité, sauf s'il a été vérifié qu'ils sont tout à fait fidèles à l'audio. Généralement, ils nécessitent d'importantes révisions.
 
-Il existe des outils qui utilisent une technologie de reconnaissance vocale pour transformer une bande sonore en fichier de légendes synchronisées. Par exemple, des sites Web de vidéos connus fournissent des légendes automatiques synchronisées. Cependant, le texte des légendes contient souvent des erreurs et ne paraît pas en même temps que l'audio ; parfois cela change le sens (ou cela est gênant). Par exemple, oublier un seul mot tel que "pas" peut rendre les légendes contredisent contenu de l'audio en question.
+Il existe des outils qui utilisent une technologie de reconnaissance vocale pour transformer une bande sonore en un fichier de sous-titres synchronisées. Par exemple, certaines sites Web de vidéos connus fournissent des sous-titres automatiques synchronisées. Cependant, le texte des sous-titres contient souvent des erreurs et ne correspond pas à l'audio ; parfois d'une façon qui en change le sens (ou est embarrassante). Par exemple, oublier un seul mot tel que "pas" peut créer une contradiction entre les sous-titres et le contenu réel de l'audio.
 
 {::nomarkdown}
-{% include box.html type="start" title="Exemple de légendes automatiques mal transcrites (qui peut provoquer un incendie)" class="simple aside"  %}
+{% include box.html type="start" title="Exemple de sous-titres automatiques mal transcrits (pouvant provoquer un incendie)" class="simple aside"  %}
 {:/}
 
 {% include image.html src="food-fire.jpg" alt="" class="normal right" %}
-  _Texte parlé :_<br>&quot;Grillez à feu vif pendant <strong>4 à 5 minutes</strong>. Ne préchauffez <strong>pas</strong> le four.&quot;<br>
-  _Légende automatique :_<br>&quot;Grillez à feu vif pendant <strong>45 minutes</strong>. <strong>Préchauffez</strong> le four.&quot;
+  _Texte énoncé :_<br>&quot;Grillez à feu vif pendant <strong>4 à 5 minutes</strong>. Ne préchauffez <strong>pas</strong> le four.&quot;<br>
+  _Sous-titre automatique :_<br>&quot;Grillez à feu vif pendant <strong>45 minutes</strong>. <strong>Préchauffez</strong> le four.&quot;
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
-Les légendes automatiques peuvent être utilisées comme un point de départ pour la création de légendes et de transcriptions fidèles à l'audio.
+Les sous-titres automatiques peuvent être utilisés comme un point de départ pour la création de sous-titres et de transcriptions fidèles à l'audio.
 
-## La création de légendes
+## Créer des sous-titres
 
-### Format de fichier de légendes
+### Format d'un fichier de sous-titres
 
-Le format le plus connu pour les légendes sur le Web est le [WebVTT](https://www.w3.org/TR/webvtt/): Le Web Video Text Tracks Format (le format des pistes de texte vidéo sur le Web).
+Le format le plus connu pour les sous-titres sur le Web est le [WebVTT](https://www.w3.org/TR/webvtt/) : le <i lang="en">Web Video Text Tracks Format</i> (format des pistes de texte vidéo sur le Web).
 
 {::nomarkdown}
 {% include box.html type="start" title="Exemple de fichier VTT dont les locuteurs sont identifiés" class="" %}
@@ -218,42 +223,42 @@ Le format le plus connu pour les légendes sur le Web est le [WebVTT](https://ww
 WEBVTT
 
 00:11.000 --> 00:13.000
-<v Rajwinder Kaur>Bienvenue sur le podcast.
+<v Rajwinder Kaur>Bienvenue sur ce podcast.
 
 00:13.000 --> 00:17.000
 <v Shawn Henry>Merci pour cette opportunité de partager des informations sur l'accessibilité.
 
 00:17.000 --> 00:20.000
-<v Rajwinder>Commencez peut-être par nous en dire un peu plus sur votre rôle au W3C.
+<v Rajwinder>Commencez peut-être par nous en dire un peu plus sur votre rôle au sein de W3C ?
 
 00:20.000 --> 00:24.000
-<v Shawn>Je travaille au sein du Web Accessibility Initiative, le W-A-I, prononcé "wey".
+<v Shawn>Je travaille au sein de l'initiative pour l'accessibilité du Web, W-A-I, que l'on prononce "wey".
 ```
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
-Voici d'autre formats de légendes : le Timed Text Markup Language ([TTML](https://www.w3.org/TR/ttml2/)) et le [SRT](https://matroska.org/technical/specs/subtitles/srt.html).
+D'autres formats de sous-titres existent : le <i lang="en">Timed Text Markup Language</i> ([TTML](https://www.w3.org/TR/ttml2/)) et le [SRT](https://matroska.org/technical/specs/subtitles/srt.html).
 
-### Les outils de sous-titrage
+### Outils de sous-titrage
 
-La plupart des gens ont recours à un logiciel ou à des services pour les aider à créer des légendes. Il existe plusieurs programmes logiciels de sous-titrage ou services en ligne gratuits.
+La plupart des personnes ont recours à un logiciel ou à des services pour les aider à créer des sous-titres. Il existe plusieurs logiciels de sous-titrage et services en ligne gratuits.
 
-Plusieurs outils gratuits ou payants créent des légendes que vous pouvez utiliser comme point de départ. Par exemple, un site Web de vidéos connu inclut des légendes automatiques et des outils pour vous permettre d'éditer les légendes. **Vous devrez éditer les légendes automatiques par soucis de précision**
+Plusieurs outils gratuits et payants génèrent des sous-titres automatiques que vous pouvez utiliser comme point de départ. Par exemple, un site Web de vidéos connu inclut des sous-titres automatiques et des outils pour vous permettre d'éditer les sous-titres. **Vous devrez éditer les sous-titres automatiques pour en assurer l'exactitude.**
 
-Si vous disposez déjà de la transcription de l'audio sous forme de texte, il existe des outils gratuits qui génèrent un fichier de légendes avec des horodatages. Vous devrez l'éditer à cause des sauts de page comme décrit dans une autre page de cette ressource, Transcrire du contenu audio en texte : [Plus d'informations sur les légendes](/media/av/transcribing/#more-on-captions).
+Si vous disposez déjà d'une transcription de l'audio sous forme de texte, il existe des outils gratuits qui génèrent un fichier de sous-titres avec des horodatages. Vous devrez l'éditer pour ajuster les sauts de ligne, comme précisé dans une autre page de cette ressource, <em>Transcrire un contenu audio en texte</em> : [Plus d'informations sur les sous-titres](/media/av/transcribing/#more-on-captions).
 
-La plupart des outils servant à éditer les légendes peuvent exporter une transcription textuelle simple.
+La plupart des outils d'édition de sous-titres permettent d'exporter une transcription en texte brut.
 
-<img src="{{ "/content-images/wai-media-guide/caption-editing.png" | relative_url }}" alt="" style="width: 50%; max-width: 500px"><br>_La capture d'écran montre un outil servant à éditer des légendes, en bas de la vidéo._
+<img src="{{ "/content-images/wai-media-guide/caption-editing.png" | relative_url }}" alt="" style="width: 50%; max-width: 500px"><br>_La capture d'écran montre un outil servant à éditer des sous-titres, dans une zone en-dessous de la vidéo._
 
-### Transcription de contenu audio en texte
+### Transcrire du contenu audio en texte
 
-Retrouvez plus d'aide sur comment taper sur une autre page de cette ressource : [Transcription de contenu audio en texte](/WAI/media/av/transcribing/).
+Retrouvez des conseils spécifiques sur ce qu'il faut taper dans une autre page de cette ressource : [Transcrire un contenu audio en texte](/WAI/media/av/transcribing/).
 
-## Position et style des légendes
+## Positionner et styliser les sous-titres
 
-Il existe des options pour aider les auteurs à déterminer la position et le style des légendes. Les supports dans les navigateurs et les autres lecteurs multimédia sont incohérents et parfois peu fiables. La plupart des vidéos Web utilisent simplement de style de présentation du lecteur par défaut, soit généralement des caractères blancs dans un bandeau noir.
+Des options existent pour aider les auteurs à déterminer la position et le style des sous-titres. Le support par les navigateurs et les autres lecteurs multimédia est variable et parfois peu fiable. La plupart des vidéos sur le Web utilisent simplement le style de présentation par défaut du lecteur, c'est-à-dire généralement des caractères blancs dans un bandeau noir.
 
-Certains lecteurs multimédias permettent aux utilisateurs de paramétrer leurs préférences pour déterminer comment et où les légendes vont apparaître, en ce compris le style et la taille du texte, ainsi que la position des légendes.
+Certains lecteurs multimédia permettent aux utilisateurs de paramétrer où et comment les sous-titres vont apparaître, notamment le style du texte, la taille des caractères, les couleurs, et la position des sous-titres.
