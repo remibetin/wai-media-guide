@@ -4,7 +4,7 @@ title_image: /content-images/wai-media-guide/cc.svg
 nav_title: "Sous-titres"
 
 lang: fr   # change "en" to lang code, here and 2 @@s below
-last_updated: 2020-06-30   # Change to date of translation YYYY-MM-DD (month in middle)
+last_updated: 2021-06-30   # Change to date of translation YYYY-MM-DD (month in middle)
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
