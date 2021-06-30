@@ -1,0 +1,7 @@
+- name: Checkout submodules
+  # You may pin to the exact commit or the version.
+  # uses: textbook/git-checkout-submodule-action@0cb23c7e6a67085e1dc5e884920bd620f7b9c469
+  uses: w3c/wai-website-data/@2597342bd8b9736e67ef5086c0a9970bf10021ef
+  with:
+    # Set the --remote flag
+    remote: # optional
