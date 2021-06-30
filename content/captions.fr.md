@@ -4,7 +4,7 @@ title_image: /content-images/wai-media-guide/cc.svg
 nav_title: "Sous-titres"
 
 lang: fr   # change "en" to lang code, here and 2 @@s below
-last_updated: 2020-01-01   # Change to date of translation YYYY-MM-DD (month in middle)
+last_updated: 2020-06-30   # Change to date of translation YYYY-MM-DD (month in middle)
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
@@ -26,13 +26,13 @@ navigation:
 changelog: /media/av/changelog/
 acknowledgements: /media/av/acknowledgements/
 
-description: Vous aide à comprendre et à créer des légendes (aussi appelées "sous-titres") pour l'accessibilité des contenus audios et vidéos.
+description: Vous aide à comprendre et à créer des sous-titres pour l'accessibilité des contenus audios et vidéos.
 image: /content-images/wai-media-guide/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:". (Do not update the date.)
-   <p><strong>Date :</strong> Mise à jour : 12 septembre 2020. CHANGELOG.</p>
-   <p><strong>Rédactrice :</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS : liste les contributeurs et les crédits.</p>
-   <p>Développé par le groupe de travail Éducation et Promotion (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
+   <p><strong>Date :</strong> Mise à jour : 24 février 2021. Première publication en septembre 2019 CHANGELOG.</p>
+   <p><strong>Rédactrice :</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
+   <p>Développé par le groupe de travail Éducation et promotion (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 
 ---
 
@@ -40,7 +40,9 @@ footer: >   # Translate words below, including "Date:" and "Editor:". (Do not up
 {% include box.html type="start" title="Résumé" class="" %}
 {:/}
 
-Cette page vous aide à comprendre et à créer des légendes (aussi appelées "sous-titres").
+Les sous-titres fournissent du contenu aux personnes sourdes et malentendantes. Les sous-titres sont une version texte de l'information parlée ou non parlée nécessaire pour comprendre le contenu. Ils sont synchronisés avec l'audio et généralement affichés dans le lecteur multimédia quand les utilisateurs les activent.
+
+Cette page vous aide à comprendre et à créer des sous-titres.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -60,53 +62,53 @@ Cette page vous aide à comprendre et à créer des légendes (aussi appelées "
 
 ## Introduction
 
-_Qui :_ Les légendes (aussi appelées "sous-titre intralinguistiques") fournissent du contenu pour les personnes sourdes et celles qui ne peuvent pas entendre l'audio. Elles sont aussi utilisées par les personnes qui comprennent plus facilement l'information écrite plutôt que l'audio.
+_Qui :_ Les sous-titres (aussi appelés "sous-titres intralinguistiques") fournissent du contenu pour les personnes sourdes et celles qui ne peuvent pas entendre l'audio. Elles sont aussi utilisées par les personnes qui comprennent plus facilement l'information écrite plutôt que l'audio.
 
 {% include image.html src="captions.png" alt="" class="normal right" %}
 
-_Quoi :_ Les légendes sont une version texte de l'information audio parlée ou non, nécessaire à la compréhension du contenu. Elles apparaissent dans le lecteur multimédia et sont synchronisées avec l'audio.
+_Quoi :_ Les sous-titres sont une version texte de l'information audio parlée ou non, nécessaire à la compréhension du contenu. Ils apparaissent dans le lecteur multimédia et sont synchronisées avec l'audio.
 
-La plupart sont des "légendes fermées" qui peuvent être masquées ou activées par les personnes qui regardent la vidéo. Elles peuvent également être des "légendes fermées" qui apparaissent en continu sans possibilité de les désactiver.
+La plupart sont des "sous-titres codés" qui peuvent être masquées ou activées par les personnes qui regardent la vidéo. Ils peuvent également être des "sous-titres décodés" qui apparaissent en continu sans possibilité de les désactiver.
 
-### Légendes
+### Sous-titres
 
-Les termes "légendes" et "sous-titres" sont utilisés pour désigner la même chose dans différentes régions dans le monde. Cette ressource utilise les termes :
-* _Légendes_ pour la même langue que l'audio parlé.
-* _Sous-titres_ pour l'audio parlé traduit dans une autre langue.
+Les termes anglais <em lang="en">captions</em> et <em lang="en">subtitles</em> sont utilisés pour désigner la même chose dans différentes régions dans le monde. Dans sa version originale en anglais, cette ressource utilise les termes :
+* _<em lang="en">Captions</em>_ pour la même langue que l'audio parlé.
+* _<em lang="en">Subtitles</em>_ pour l'audio parlé traduit dans une autre langue.
 
-Certaines régions utilisent les _sous-titres_ à la fois pour la même langue et pour la traduction. Parfois, ils sont parfois distingués sous la forme de _sous-titres intralinguistiques_ (même langue) et _sous-titres interlinguistiques_ (langue différente).
+Certaines régions utilisent le mot _sous-titres_ à la fois pour la même langue que l'audio parlé et pour la traduction. Parfois, ils sont parfois distingués sous la forme de _sous-titres intralinguistiques_ (même langue) et _sous-titres interlinguistiques_ (langue différente).
 
-Les sous-titres sont implémentés de la même manière que les légendes. Généralement, les sous-titres/les sous-titres interlinguistiques transcrivent uniquement l'audio parlé (pour les personnes qui peuvent entendre l'audio mais qui ne connaissent pas la langue parlée). Ils peuvent être une traduction des légendes, y compris de l'information audio non parlée.  
+Les sous-titres intralinguistiques (en anglais <em lang="en">captions</em>) sont implémentés de la même manière que les sous-titres interlinguistiques (en anglais <em lang="en">subtitles</em>). Généralement, les sous-titres interlinguistiques transcrivent uniquement l'audio parlé (pour les personnes qui peuvent entendre l'audio mais qui ne connaissent pas la langue parlée). Ils peuvent être une traduction des sous-titres intralinguistiques, en incluant l'information audio non parlée.  
 
-Les légendes sont nécessaires pour l'accessibilité, alors que les sous-titres dans d'autres langues ne sont pas directement utiles à l'accessibilité.
+Les sous-titres intralinguistiques sont nécessaires pour l'accessibilité, alors que les sous-titres dans d'autres langues ne sont pas directement utiles à l'accessibilité.
 
-### Les légendes en direct
+### Les sous-titres en direct
 
-Les légendes en direct sont généralement produites par des professionnels du sous-titrage en temps réel (également appelés professionnels de l'accès à la communication par la traduction en temps réel (CART)). Les légendes en direct peuvent être effectuées sur place ou à distance, ce qui signifie que la personne qui fait le sous-titrage ou le CART ne se trouve pas là où a lieu l'action en direct ; elles peuvent sous-titrer en écoutant l'audio depuis un téléphone portable ou une connection internet.
+Les sous-titres en direct sont généralement produits par des professionnels du sous-titrage en temps réel (également appelés professionnels de la traduction en temps réel des communications (CART)). Les sous-titres en direct peuvent être effectués sur place ou à distance. Cela signifie que la personne qui fait le sous-titrage/CART ne se trouve pas nécessairement là où a lieu l'action en direct ; elles peuvent créer les sous-titres en écoutant l'audio depuis un téléphone portable ou une connexion Internet.
 
-Si vous avez des sous-titres en direct et que vous voulez poster un enregistrement, vous devrez probablement effectuer quelques retouches pour en assurer l'exactitude.
+Si vous avez des sous-titres en direct et que vous postez un enregistrement, vous devrez probablement effectuer quelques retouches pour en assurer l'exactitude.
 
-Le reste de cette page concerne la création de légendes pour les contenus multimédias pré-enregistrés.
+Le reste de cette page concerne la création de sous-titres pour les contenus multimédias pré-enregistrés.
 
-### Transcriptions interactives à partir des légendes
+### Transcriptions interactives à partir des sous-titres
 {:.no_toc}
 
-Les fichiers de légendes sont utilisés par certains lecteurs multimédias pour fournir des _transcriptions interactives_. Celles-ci surlignent les phrases de texte lorsqu'elles sont prononcées. Les utilisateurs peuvent sélectionner du texte dans la transcription et aller au même endroit dans la vidéo. Certains lecteurs fournissent une fonctionnalité de transcription interactive.
+Les fichiers de sous-titres sont utilisés par certains lecteurs multimédias pour fournir des _transcriptions interactives_. Celles-ci surlignent les phrases de texte lorsqu'elles sont prononcées. Les utilisateurs peuvent sélectionner du texte dans la transcription et atteindre cet instant dans la vidéo. Certains lecteurs fournissent une fonctionnalité de transcription interactive.
 
 <img src="{{ "/content-images/wai-media-guide/interactive-transcript.png" | relative_url }}" alt="">
 
-### Notes
+### À noter
 {:.no_toc}
 
-Pour une accessibilité optimale, fournissez un fichier de légendes séparé pour la description audio.
+Pour une accessibilité optimale, fournissez un fichier de sous-titres séparé pour la description audio.
 
-**Les légendes et les transcriptions comprennent le même texte, les unes pouvant donc être utilisées pour créer les autres.**
+**Les sous-titres et les transcriptions contiennent le même texte, les unes pouvant donc être utilisées pour créer les autres.**
 
 ## Mon contenu multimédia nécessite-t-il des sous-titres ? {#checklist}
 
 Cette section vous indique :
 * Ce qui est requis par le standard des WCAG aux niveaux A, AA, et AAA.
- _([Les WCAG](/media/av/planning/#wcag-standard) sont introduites dans la page Production de cette ressource.)_
+ _([Les WCAG](/media/av/planning/#wcag-standard) sont introduites dans la page Planifier de cette ressource.)_
 * Ce qui est nécessaire pour satisfaire les besoins des utilisateurs, au-delà des WCAG. S'il n'y a pas de "A", alors ce n'est pas requis par les WCAG.
 
 {% capture boxhead %}
