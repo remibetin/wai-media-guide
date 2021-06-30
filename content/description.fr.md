@@ -213,7 +213,7 @@ Cette approche fonctionne pour certaines vidéos nouvelles. Voici les étapes es
 
 ### Texte : créer une description dans un fichier texte
 
-Cette approche ne fonctionne que lorsque le lecteur multimédia que vous utilisez peut lire une description audio basée sur du texte lu à voix haute. De plus, soit l'espace est suffisant dans l'audio principal pour la description, soit le lecteur fournit des fonctionnalités pour mettre la vidéo sur pause lors de la description audio. Ce procédé nécessite de créer un fichier texte synchronisé &mdash un minimum de compétences est requis ; des outils ne sont pas nécessaires, bien qu'ils accélèrent et facilitent la création.
+Cette approche ne fonctionne que lorsque le lecteur multimédia que vous utilisez peut lire une description audio basée sur du texte lu à voix haute. De plus, soit l'espace est suffisant dans l'audio principal pour la description, soit le lecteur fournit des fonctionnalités pour mettre la vidéo sur pause lors de la description audio. Ce procédé nécessite de créer un fichier texte synchronisé &mdash; un minimum de compétences est requis ; des outils ne sont pas nécessaires, bien qu'ils accélèrent et facilitent la création.
 
 Voici les étapes essentielles du processus de création de descriptions dans un fichier texte :
 1. Rédigez les descriptions. Retrouvez des [Conseils pour rédiger des descriptions ci-dessous](#writing).
@@ -243,46 +243,46 @@ La boîte de dialogue "Préférences pour l'audiodescription" s'ouvre.
 Cette approche ne fonctionne que lorsque l'espace dans l'audio principal est suffisant pour la description, *et* lorsque le lecteur multimédia peut lire une piste sonore à part pour la description. Cela nécessite des compétences et un logiciel d'enregistrement et de montage de contenu audio.
 
 Voici les étapes essentielles du processus de développement d'une description dans un fichier audio à part :
-1. Écrivez les descriptions. Retrouvez des [Conseils pour rédiger des descriptions ci-dessous](#writing).
+1. Rédigez les descriptions. Retrouvez des [Conseils pour rédiger des descriptions ci-dessous](#writing).
 2. Enregistrez les descriptions. Retrouvez des [Conseils pour enregistrer des descriptions ci-dessous](#recording).
 3. Assurez-vous que les descriptions s'activent dans les espaces audios de la vidéo principale.
 4. Fournissez un fichier de sous-titres de la description. [Exemple de fichier VTT de l'audiodescription](#vtt)
 
 (Assurez-vous que les fichiers sont intégrés au lecteur sur la page Web.)
 
-### Vidéo avec de l'espace : créer une description vidéo à part - si les espaces audios sont suffisants pour les descriptions
+### Vidéo avec de l'espace : créer une vidéo décrite à part - si les espaces audios sont suffisants pour les descriptions
 
-Cette option s'applique aux descriptions pour lesquelles l'espace dans la vidéo est insuffisant, comme décrit dans [Espace dans le contenu audio ci-dessus](#space)_. Cela nécessite des compétences et un logiciel d'enregistrement et de montage de contenu vidéo. En fonction du lecteur que vous utilisez, vous pourriez nécessiter un logiciel vidéo pou regénérer la vidéo.
+Cette option s'applique lorsque les descriptions peuvent s'insérer dans les espaces de la vidéo, comme décrit dans [Espace dans le contenu audio ci-dessus](#space)_. Elle nécessite des compétences et un logiciel d'enregistrement et de montage de contenu vidéo. En fonction du lecteur que vous utilisez, vous pourriez avoir besoin d'un logiciel vidéo pour regénérer la vidéo.
 
-Les étapes essentielles du processus de développement d'un fichier audio séparé :
-1. L'écriture des descriptions. Retrouvez des [Conseils pour l'écritures de descriptions ci-dessous](#writing).
-2. L'enregistrement des descriptions. Retrouvez des [Conseils pour l'enregistrement de descriptions ci-dessous](#recording).
-3. La création d'un nouveau fichier audio en associant l'audio original et la nouvelle audiodescription. Retrouvez des [Conseils pour associer des fichiers audios ci-dessous](#combining).
+Voici les étapes essentielles du processus de création d'un fichier audio séparé :
+1. Rédigez les descriptions. Retrouvez des [Conseils pour la rédaction de descriptions ci-dessous](#writing).
+2. Enregistrez les descriptions. Retrouvez des [Conseils pour enregistrer des descriptions ci-dessous](#recording).
+3. Créez un nouveau fichier audio en associant l'audio original et la nouvelle audiodescription. Retrouvez des [Conseils pour associer des fichiers audios ci-dessous](#combining).
 4. Fournissez le(s) fichier(s) :
-* _**Si**_ votre lecteur utilise une vidéo et des bandes sonores séparées,<br>vous avez fini.
-* _**Si**_ votre lecteur utilise un seul fichier vidéo qui comprend l'audio,<br>générez la nouvelle description vidéo avec le fichier audio que vous venez de créer.
+* _**Si**_ votre lecteur utilise des pistes vidéo et audio séparées,<br>vous avez fini.
+* _**Si**_ votre lecteur utilise un seul fichier vidéo qui inclut l'audio,<br>générez la nouvelle  vidéo décrite avec le fichier audio que vous venez de créer.
 
 (Assurez-vous que sur la page Web où la vidéo est disponible, la version décrite utilise la version correcte que vous venez de créer.)
 
-### Vidéo sans espace : la création d'une description vidéo à part - S'il n'y a _pas_ suffisamment de place dans l'audio pour les descriptions
+### Vidéo sans espace : créer une vidéo décrite à part - s'il n'y a _pas_ suffisamment d'espace dans l'audio pour les descriptions
 
-S'il n'y a **pas** suffisamment de place pour toutes les descriptions _(comme décrit dans [Espace dans l'audio ci-dessus](#space))_, vous devrez développer un fichier audio à part et créer une piste visuelle. Cela nécessite des compétences et un logiciel d'enregistrement, de montage de contenu audio, et de montage de contenu vidéo.
+S'il n'y a **pas** suffisamment d'espace pour toutes les descriptions _(comme décrit dans [Espace dans le contenu audio ci-dessus](#space))_, vous devrez développer un fichier audio à part et créer une piste visuelle. Cette option nécessite des compétences et un logiciel d'enregistrement audio, de montage de contenu audio, et de montage de contenu vidéo.
 
-Voici les étapes essentielles du processus de développement d'un fichier audio séparé et de création d'une piste visuelle :
-1. L'écriture des descriptions. Retrouvez des [Conseils pour l'écriture de descriptions ci-dessous](#writing).
-2. L'enregistrement des descriptions. Retrouvez des [Conseils pour l'enregistrement de descriptions ci-dessous](#recording).
-3. La création d'un nouveau fichier audio en associant le contenu audio original et la nouvelle audiodescription. Retrouvez des [Conseils pour associer les fichiers audios ci-dessous](#combining).
-4. La création d'une nouvelle vidéo :
-	* _**Si**_ votre vidéo source contient des scènes plus longues _(comme décrit dans "Des contenus audios et vidéos accessibles, dans la section ["Durée pour la description"](/media/av/av-content/#time-for-description))_, recouper les scènes plus longues pour remplir les espaces visuels où vous avez besoin de faire de la place pour la description.
-	* _**Si ce n'est pas le cas ou si vous faites un ajout à une vidéo déjà existante**_, vous devrez laisser une image statique dans la vidéo au moment où la description apparaît dans l'audio. <!-- (For example, this video [@@ need very good example - see GitHub](https://github.com/w3c/wai-media-guide/issues/73) pauses at 00:00 for the audio description.) -->
+Voici les étapes essentielles du processus de création d'un fichier audio séparé et de création d'une piste visuelle :
+1. Rédigez des descriptions. Retrouvez des [Conseils pour rédiger des descriptions ci-dessous](#writing).
+2. Enregistrez les descriptions. Retrouvez des [Conseils pour enregistrer des descriptions ci-dessous](#recording).
+3. Créez un nouveau fichier audio en associant le contenu audio original et la nouvelle audiodescription. Retrouvez des [Conseils pour associer les fichiers audios ci-dessous](#combining).
+4. Créez une nouvelle vidéo :
+	* _**Si**_ votre vidéo source est constituée de longues scènes _(comme décrit dans "Contenus audios et vidéos accessibles, dans la section ["Prévoir du temps pour la description"](/media/av/av-content/#time-for-description))_, coupez des scènes plus longues pour combler l'espace visuel aux moments de la description.
+	* _**Si ce n'est pas le cas ou si vous éditez une vidéo déjà existante**_, vous aurez besoin de conserver une image statique dans la vidéo lorsque description sera lue dans l'audio. <!-- (For example, this video [@@ need very good example - see GitHub](https://github.com/w3c/wai-media-guide/issues/73) pauses at 00:00 for the audio description.) -->
 
-(Assurez-vous que sur la page Web où la vidéo est disponible, la version décrite utilise la version correcte que vous venez de créer.)
+(Assurez-vous que, sur la page Web où la vidéo est disponible, la version décrite utilise la version correcte que vous venez de créer.)
 
 ### D'autres options
 {:.no_toc}
 
-* Une description étendue avec SMIL : le seul mode de balisage pour fournir des audiodescriptions est l'utilisation de SMIL 3.0. L'assitance au SMIL est très limitée. Les implémentations nécessiteront certainement des plug-ins et/ou des approches extrêmement personnalisées.
-* Fournir les fonctionnalités pour que la vidéo se mette en pause au moment de la description : cela n'est pas proposé dans la plupart des cas car un codage supplémentaire est nécessaire et l'expérience utilisateur est moins optimale.
+* Une description étendue avec SMIL &mdash; SMIL 3.0 est la seule méthode de balisage pour fournir des audiodescriptions étendues. Le support de SMIL est très limité. Les implémentations nécessiteront certainement des plug-ins et/ou des approches extrêmement personnalisées.
+* Fournir des fonctionnalités pour que la vidéo se mette en pause au moment de la description : cela n'est pas suggéré dans la plupart des cas car un développement supplémentaire est nécessaire et l'expérience utilisateur est sous-optimale.
 
 {% include_cached excol.html type="start" id="tips" %}
 
@@ -290,29 +290,31 @@ Voici les étapes essentielles du processus de développement d'un fichier audio
 
 {% include_cached excol.html type="middle" %}
 
-### Conseils pour l'écriture de descriptions {#writing}
+### Conseils pour rédiger des descriptions {#writing}
 {:.no_toc}
 
-* Décrivez les éléments visuels importants à la compréhension du message communiqué par la vidéo. Imaginez que vous décrivez la vidéo à une personne qui ne peut pas la voir : que dites-vous ? Vous n'avez pas besoin de décrire chaque détail ou chaque élément apparent dans l'audio.
-* Décrit objectivement, sans interprétation, censure, ou commentaire.
-* Écrire une description au présent, à la voie active, et à la troisième personne du style narratif.
+* Décrivez les éléments visuels importants pour la compréhension du message communiqué par la vidéo. Imaginez que vous décriviez la vidéo à une personne qui ne peut pas la voir &mdash; que diriez-vous ? Vous n'avez pas besoin de décrire chaque détail ou chaque élément apparaissant dans l'audio.
+* Décrivez objectivement, sans interprétation, censure, ou commentaire.
+* Écrivez une description au temps présent, à la forme active, et à la troisième personne.
 
-Retrouvez plus d'informations sur l'écriture des descriptions disponible sur le Web, par exemple : [Fiche descriptive {% include_cached external.html %}](https://dcmp.org/learn/227) and [Comment décrire {% include_cached external.html %}](http://www.descriptionkey.org/how_to_describe.html).
+Généralement, tout le texte présent dans la vidéo devrait être inclus dans l'audio principal (description intégrée) ou dans une description distincte. Par exemple, le texte du titre au début de la vidéo, les liens et les adresses électroniques affichés à la fin, les textes avec les noms des locuteurs, et le texte présent dans la présentation. Il n'est pas indispensable d'inclure le texte sous forme de verbatims (exactement mot pour mot), mais toute l'information transmise par le texte doit être disponible dans l'audio principal, dans une description à part, ou clairement mise à disposition avec la vidéo.
 
-### Conseils pour l'enregistrement de descriptions {#recording}
+Retrouvez sur le Web davantage de conseils sur la rédaction des descriptions, par exemple : [Fiche de conseils pour la description {% include_cached external.html %}](https://dcmp.org/learn/227) and [Comment décrire {% include_cached external.html %}](http://www.descriptionkey.org/how_to_describe.html).
+
+### Conseils pour enregistrer des descriptions {#recording}
 {:.no_toc}
 
 * Utilisez une voix, un style, et un débit qui se distinguent des autres voix utilisées dans la vidéo.
 * Utilisez une voix neutre qui ne transmet pas d'émotions.
-* Lors de l'enregistrement d'un seul fichier avec des descriptions synchronisées, prononcez les descriptions au même moment que le contenu visuel, ou juste avant le contenu visuel. Ne faites pas apparaitre la description après le contenu visuel.
-* Allez sur [aide pour le contenu audio](/media/av/av-content/#audio).
+* Lors de l'enregistrement d'un seul fichier avec des descriptions synchronisées, prononcez les descriptions au même moment que le contenu visuel, ou juste avant le contenu visuel. Ne placez pas la description après le contenu visuel.
+* Consultez des [conseils pour le contenu audio](/media/av/av-content/#audio).
 
 ### Conseils pour associer des fichiers audios {#combining}
 {:.no_toc}
 
-* Faites apparaitre les descriptions au même moment que le contenu visuel, ou juste avant celui-ci. Ne faites pas apparaitre la description après.
+* Placez les descriptions au même moment que le contenu visuel, ou juste avant celui-ci. Ne placez pas la description après le contenu visuel.
 
-* Faites en sorte que la description soit plus claire que les autres bruits. Au moment d'associer les descriptions avec le contenu audio principal, baissez le volume de l'audio principal au moment de l'apparition de la description et augmentez le volume de l'audio de la description. Lorsque la description est finie, baissez le volume de l'audio de la description et augmentez le volume de l'audio principal à son réglage normal. Répétez ce processus (appelé "ducking") pour chaque moment de description.
+* Faites en sorte que la description soit clairement haut dessus des autres bruits. Au moment d'associer les descriptions avec le contenu audio principal, baissez le volume de l'audio principal quand la description est prononcée et augmentez le volume de la description. Lorsque la description est finie, baissez le volume de la description et augmentez le volume de l'audio principal à son réglage normal. Répétez ce processus (appelé "ducking") pour chaque occurence de la description.
 
 {% include_cached excol.html type="end" %}
 
@@ -320,23 +322,23 @@ Retrouvez plus d'informations sur l'écriture des descriptions disponible sur le
 {:.no_toc}
 
 {::nomarkdown}
-{% include box.html type="start" title="Exemple de fichier VTT de l'audiodescription" class="" id="vtt" %}
+{% include box.html type="start" title="Exemple de fichier VTT d'audiodescription" class="" id="vtt" %}
 {:/}
 
 ```
 WEBVTT
 
 00:00:04.000 --> 00:00:07.980
-<v Audiodescriptions>Un homme assis à un bureau commence à regarder une vidéo sur son ordinateur.
+<v Audio-descriptions>Un homme assis à un bureau commence à regarder une vidéo sur son ordinateur.
 
 00:00:17.260 --> 00:00:20.780
-<v Audiodescriptions>La vidéo sur son ordinateur montre une personne qui parle à la caméra.
+<v Audio-descriptions>La vidéo sur son ordinateur montre une personne qui parle à la caméra.
 
 00:00:20.780 --> 00:00:23.140
-<v Audiodescriptions>Elle fonctionne sans audio.
+<v Audio-descriptions>La vidéo est lue sans audio.
 
 00:00:26.880 --> 00:00:29.620
-<v Audiodescriptions>L'homme qui regarde la vidéo a un appareil auditif.
+<v Audio-descriptions>L'homme qui regarde la vidéo a un appareil auditif.
 ```
 
 {::nomarkdown}
