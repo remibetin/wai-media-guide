@@ -130,7 +130,7 @@ Contenu seulement audio (par exemple, les podcasts) :
 {:/}
 
 {% capture boxhead %}
-Contenu seulement vidéo (pas de contenu audio):
+Contenu seulement vidéo (pas de contenu audio) :
 {% endcapture %}
 
 {::nomarkdown}
