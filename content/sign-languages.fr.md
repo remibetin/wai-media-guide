@@ -114,7 +114,7 @@ Assurez-vous que l'image de l'interprète en langue des signes soit suffisamment
 
 Rendez la (les) vidéo(s) en langue des signes facile(s) à découvrir et à utiliser
 : Facilitez l'accès à la vidéo avec la langue des signes et à la vidéo sans langue des signes.
-: Par exemple, directement sous le lecteur multimédia, incluez un grand bouton d'activation et/ou une image étiquetée pour la (les) vidéo(s) en langue des signes.<br><img src="{{ "/content-images/wai-media-guide/sign-button.png" | relative_url }}" alt="" style="max-width: 162px">
+: Par exemple, directement sous le lecteur multimédia, incluez un grand bouton d'activation et/ou une image étiquetée pour la (les) vidéo(s) en langue des signes.<br><img src="{{ "/content-images/wai-media-guide/sign-button.png" | relative_url }}" alt="Auslan (langue des signes australienne)" style="max-width: 162px">
 {:.paragraph-like}
 
 Il existe des ressources sur le Web qui fournissent des informations supplémentaires sur la création d'alternatives en langue des signes. Par exemple :
