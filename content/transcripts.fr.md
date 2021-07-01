@@ -4,7 +4,7 @@ title_image: /content-images/wai-media-guide/transcript.svg
 nav_title: "Transcriptions"
 
 lang: fr   # change "en" to lang code, here and 2 @@s below
-last_updated: 2020-01-01   # Change to date of translation YYYY-MM-DD (month in middle)
+last_updated: 2021-07-01   # Change to date of translation YYYY-MM-DD (month in middle)
 translators:
 - name: "Sofia Ahmed"
 - name: "Rémi Bétin"
@@ -22,7 +22,7 @@ resource:
   ref: /media/av/
 navigation:
   previous: /media/av/captions/
-  next:     /media/av/sign-languages/
+  next:     /media/av/transcribing/
 changelog: /media/av/changelog/
 acknowledgements: /media/av/acknowledgements/
 
@@ -30,15 +30,17 @@ description: Vous aide à comprendre et à créer des transcriptions pour rendre
 image: /content-images/wai-media-guide/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:". (Do not update the date.)
-   <p><strong>Date :</strong> Mise à jour : 9 octobre 2020. CHANGELOG.</p>
-   <p><strong>Rédactrice :</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS : liste les contributeurs et les crédits.</p>
-   <p>Développé par le groupe de travail Éducation et Promotion (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
+   <p><strong>Date:</strong> Mise à jour : 12 avril 2021. Première publication en septembre 2019. CHANGELOG.</p>
+   <p><strong>Rédactrice :</strong> <a href="http://www.w3.org/People/Shawn">Shawn Lawton Henry</a>. ACKNOWLEDGEMENTS liste les contributeurs et les crédits.</p>
+   <p>Développé par le groupe de travail Éducation et promotion (<a href="http://www.w3.org/WAI/EO/">EOWG</a>). Rédigé initialement dans le cadre du projet <a href="https://www.w3.org/WAI/WCAGTA/">WCAG TA</a> financé par le <abbr title="United States">U.S.</abbr> Access Board. Révisé dans le cadre du projet <a href="https://www.w3.org/WAI/expand-access/">WAI Expanding Access</a> financé par la fondation Ford.</p>
 
 ---
 
 {::nomarkdown}
 {% include box.html type="start" title="Résumé" class="" %}
 {:/}
+
+Les transcriptions de base sont une version texte de l’information parlée ou non parlée nécessaire pour comprendre le contenu. Les transcriptions descriptives incluent également une description textuelle des informations visuelles nécessaires pour comprendre le contenu. Les transcriptions descriptives sont nécessaires pour fournir un contenu vidéo aux personnes sourdes et aveugles.
 
 Cette page vous aide à comprendre et à créer des transcriptions.
 
@@ -62,27 +64,28 @@ Cette page vous aide à comprendre et à créer des transcriptions.
 
 Les transcriptions de base sont une version textuelle des informations audios vocales et non vocales nécessaires à la compréhension du contenu.
 
-_Qui :_ Les transcriptions de base sont utilisées par les personnes sourdes, malentendantes, celle qui ont des difficultés à comprendre l'information auditive, et les autres.
+_Qui :_ Les transcriptions de base sont utilisées par les personnes sourdes, malentendantes, celle qui ont des difficultés à traiter l'information auditive, et d'autres.
 
 **_Les transcriptions descriptives_** pour vidéos comprennent également les informations visuelles nécessaires à la compréhension du contenu.
 
 {% include image.html src="braille.jpg" alt="" class="normal right" %}
 
-_Qui :_ Les transcriptions descriptives sont nécessaires pour fournir un contenu audio et vidéo aux personnes à la fois sourdes et aveugles. Elles sont aussi utilisées par les personnes qui comprennent mieux l'information textuelle plutôt que l'information audio et visuelle/illustrée.
-Si vous fournissez une transcription descriptive, vous avez besoin d'une transcription de base à part.
+_Qui :_ Les transcriptions descriptives sont nécessaires pour fournir un contenu audio et vidéo aux personnes à la fois sourdes et aveugles. Elles sont aussi utilisées par les personnes qui comprennent mieux l'information textuelle que l'information audio et visuelle/illustrée.
 
-_Transcriptions interactives_ surligne les phrases de texte au moment où elles sont prononcées. Les utilisateurs peuvent sélectionner le texte dans la transcription et aller l'endroit correspondant dans la vidéo. C'est une caractéristique dU lecteur multimédia. Il utilise le fichier de légendes.
+Vous fournirez idéalement une transcription descriptive, et vous n'aurez alors pas besoin d'une transcription de base à part.
+
+_Les transcriptions interactives_ surlignent les phrases de texte au moment où elles sont prononcées. Les utilisateurs peuvent sélectionner du texte dans la transcription et atteindre cet instant dans la vidéo. Il s'agit d'une fonctionnalité du lecteur multimédia. Elle utilise le fichier de sous-titres.
 
 <img src="{{ "/content-images/wai-media-guide/interactive-transcript.png" | relative_url }}" alt="">
 
 ## Mon contenu multimédia nécessite-t-il une transcription ? {#checklist}
 
-**Réponse courte : oui, les transcriptions sont nécessaires pour répondre à l'ensemble des besoins des utilisateurs**.
+**Réponse courte : oui, les transcriptions descriptives sont nécessaires pour répondre aux besoins d'une large palette d'utilisateurs**.
 
-Dans certains cas, les transcriptions ne sont pas requises pour répondre aux standards des WCAG. _(la page Production de cette ressource introduit le [standard des WCAG](/media/av/planning/#wcag-standard).)_
+Dans certains cas, les transcriptions ne sont pas requises pour répondre aux standards des WCAG. _(la page Planifier de cette ressource introduit le [standard des WCAG](/media/av/planning/#wcag-standard).)_
 
 {% capture boxhead %}
-Contenu uniquement audio (par exemple, les podcasts):
+Contenu seulement audio (par exemple, les podcasts) :
 {% endcapture %}
 
 {::nomarkdown}
@@ -93,7 +96,7 @@ Contenu uniquement audio (par exemple, les podcasts):
    - Les transcriptions sont **_requises_** au niveau A des WCAG.
    {:.alt}
 - Pour les contenus en direct :
-   - Les transcriptions se situent au niveau AAA des WCAG. Généralement il doit s'agir d'une diffusion du texte en direct. Si l'audio suit le script, vous pouvez fournir un script textuel.
+   - Les transcriptions se situent au niveau AAA des WCAG. Généralement il doit s'agir d'une diffusion du texte en direct. Si l'audio suit un scénario, vous pouvez fournir le texte du scénario.
    {:.alt}
 
 {::nomarkdown}
@@ -101,18 +104,18 @@ Contenu uniquement audio (par exemple, les podcasts):
 {:/}
 
 {% capture boxhead %}
-Contenu uniquement vidéo (sans contenu audio) :
+Contenu seulement vidéo (pas de contenu audio) :
 {% endcapture %}
 
 {::nomarkdown}
 {% include box.html type="start" title=boxhead class="highlighted" id="checklist-vo" %}
 {:/}
 
-- Pour le pré-enregistré :
-   - La transcription descriptive **_ou_** l'audiodescription est **_requise_** au niveau A dans les WCAG.
+- Pour les vidéos pré-enregistrées :
+   - Une transcription descriptive **_ou_** une audiodescription est **_requise_** au niveau A dans les WCAG.
    {:.alt}
-- Pour le direct :
-   - Une description des informations visuelles est nécessaire. Généralement, il s'agit d'une diffusion du texte en direct, plutôt que d'un script. Ce n'est pas requis dans les WCAG.
+- Pour les vidéos en direct :
+   - Une description des informations visuelles est nécessaire. Généralement, il s'agit d'une diffusion du texte en direct, plutôt que d'une transcription. Ce n'est pas requis dans les WCAG.
    {:.alt}
 
 {::nomarkdown}
@@ -127,11 +130,11 @@ Vidéo avec du contenu audio :
 {% include box.html type="start" title=boxhead class="highlighted" id="checklist-va" %}
 {:/}
 
-- Pour le pré-enregistré :
-   - Les transcriptions se situent au niveau AAA des WCAG. (Les légendes se situent au niveau A)
+- Pour les vidéos pré-enregistrées :
+   - Les transcriptions se situent au niveau AAA des WCAG. (les sous-titres se situent au niveau A.)
    {:.alt}
-- Pour le direct :
-   - Une diffusion en direct séparée du lecteur multimédia est nécessaire pour les personnes qui n'ont pas accès aux légendes. Cela n'est pas requis dans les WCAG (Les légendes se situent au niveau AA.)
+- Pour les vidéos en direct :
+   - Une flux en direct séparé du lecteur multimédia est nécessaire pour les personnes qui n'ont pas accès aux sous-titres. Cela n'est pas requis dans les WCAG (Les sous-titres se situent au niveau AA.)
    {:.alt}
 
 {::nomarkdown}
